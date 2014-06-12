@@ -19,6 +19,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import com.adobe.adbmobilesamples.MenuActivity;
+import me.pjq.omniture.OmnitureManager;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -37,11 +38,15 @@ public class MainActivity extends ActionBarActivity {
      * The {@link ViewPager} that will host the section contents.
      */
     ViewPager mViewPager;
+    private OmnitureManager omnitureManager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        omnitureManager = OmnitureManager.getInstance();
+        omnitureManager.getConfig().setContext(getApplicationContext());
 
 
 
@@ -55,6 +60,19 @@ public class MainActivity extends ActionBarActivity {
 
     }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+
+        omnitureManager.onResume();
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+
+        omnitureManager.onPause();
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

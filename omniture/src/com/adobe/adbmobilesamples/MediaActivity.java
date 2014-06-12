@@ -64,7 +64,7 @@ public class MediaActivity extends Activity {
 		Config.collectLifecycleData();
 
 		/*
-		 * Adobe Tracking - Analytics
+		 * Adobe Tracking - MyAnalytics
 		 *
 		 * call to trackState(...) for view states report
 		 * trackState(...) increments the page view

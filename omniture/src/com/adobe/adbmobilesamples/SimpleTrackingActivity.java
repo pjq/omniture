@@ -44,7 +44,7 @@ public class SimpleTrackingActivity extends Activity {
 		Config.collectLifecycleData();
 
 		/*
-		 * Adobe Tracking - Analytics
+		 * Adobe Tracking - MyAnalytics
 		 *
 		 * call to trackState(...) for view states report
 		 * trackState(...) increments the page view
@@ -61,7 +61,7 @@ public class SimpleTrackingActivity extends Activity {
 		}
 
 		/*
-		 * Adobe Tracking - Analytics
+		 * Adobe Tracking - MyAnalytics
 		 *
 		 * call to trackState:data: for view states report
 		 * trackState:data: increments the page view
@@ -78,7 +78,7 @@ public class SimpleTrackingActivity extends Activity {
 		}
 
 		/*
-		 * Adobe Tracking - Analytics
+		 * Adobe Tracking - MyAnalytics
 		 *
 		 * call to trackAction:data: indicating the trackAction button was pushed
 		 * trackAction:data: does not increment page view

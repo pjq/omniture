@@ -106,7 +106,7 @@ public class GalleryActivity extends Activity {
 		Config.collectLifecycleData();
 
 		/*
-		 * Adobe Tracking - Analytics
+		 * Adobe Tracking - MyAnalytics
 		 *
 		 * call to trackState(...) for view states report
 		 * trackState(...) increments the page view
@@ -120,7 +120,7 @@ public class GalleryActivity extends Activity {
 		orderData.put("revenue", 39.95);
 		orderData.put("imageName", _currentGalleryItem.title);
 
-		/* Adobe Tracking - Analytics
+		/* Adobe Tracking - MyAnalytics
 		 *
 		 * track the revenue produced by this purchase
 		 * we are just putting a fake amount (39.95) to produce data
@@ -146,7 +146,7 @@ public class GalleryActivity extends Activity {
 	}
 
 	private void launchWebStore() {
-		/* Adobe Tracking - Analytics
+		/* Adobe Tracking - MyAnalytics
 		 *
 		 * attach the trackingIdentifier from analytics sdk to url in our web store
 		 */

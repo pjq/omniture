@@ -55,7 +55,7 @@ public class LifetimeValueActivity extends Activity {
 		Config.collectLifecycleData();
 
 		/*
-		 * Adobe Tracking - Analytics
+		 * Adobe Tracking - MyAnalytics
 		 *
 		 * call to trackState(...) for view states report
 		 * trackState(...) increments the page view
@@ -67,7 +67,7 @@ public class LifetimeValueActivity extends Activity {
         HashMap<String, Object> cData = new HashMap<String, Object>();
         cData.put("Success Event", "Link Clicked");
         /*
-	     * Adobe Tracking - Analytics
+	     * Adobe Tracking - MyAnalytics
 	     *
 	     * call to trackLifetimeValueIncrease:data: to increase user's lifetime value
 	     * we are attributing clicking a link to a value of 3.5
@@ -81,7 +81,7 @@ public class LifetimeValueActivity extends Activity {
         cData.put("Success Event", "Purchase");
 
         /*
-	     * Adobe Tracking - Analytics
+	     * Adobe Tracking - MyAnalytics
 	     *
 	     * call to trackLifetimeValueIncrease:data: to increase user's lifetime value
 	     * we are attributing a purchase to a value of 10.0
@@ -95,7 +95,7 @@ public class LifetimeValueActivity extends Activity {
         cData.put("Success Event", "Media Uploaded");
 
         /*
-	     * Adobe Tracking - Analytics
+	     * Adobe Tracking - MyAnalytics
 	     *
 	     * call to trackLifetimeValueIncrease:data: to increase user's lifetime value
 	     * we are attributing uploading media to a value of 5.0
@@ -108,7 +108,7 @@ public class LifetimeValueActivity extends Activity {
         HashMap<String, Object> cData = new HashMap<String, Object>();
         cData.put("Success Event", "Media Viewed");
         /*
-	     * Adobe Tracking - Analytics
+	     * Adobe Tracking - MyAnalytics
 	     *
 	     * call to trackLifetimeValueIncrease:data: to increase user's lifetime value
 	     * we are attributing viewing media to a value of 7.0
@@ -121,7 +121,7 @@ public class LifetimeValueActivity extends Activity {
         HashMap<String, Object> cData = new HashMap<String, Object>();
         cData.put("Success Event", "Social Engagement");
         /*
-	     * Adobe Tracking - Analytics
+	     * Adobe Tracking - MyAnalytics
 	     *
 	     * call to trackLifetimeValueIncrease:data: to increase user's lifetime value
 	     * we are attributing a social engagement to a value of 9.0
@@ -133,7 +133,7 @@ public class LifetimeValueActivity extends Activity {
     private void updateLTVLabel() {
         TextView ltvLabel = (TextView)findViewById(R.id.lblInApp1);
         /*
-	     * Adobe Tracking - Analytics
+	     * Adobe Tracking - MyAnalytics
 	     *
 	     * call to lifetimeValue returns users current lifetime value
 	     */

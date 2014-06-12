@@ -33,7 +33,7 @@ public class MenuActivity extends Activity implements LocationListener {
 		setContentView(R.layout.main);
 
 		/*
-		 * Adobe Tracking - Analytics
+		 * Adobe Tracking - MyAnalytics
 		 *
 		 * set the context for the SDK
 		 * this is necessary for access to sharedPreferences and file i/o
@@ -76,7 +76,7 @@ public class MenuActivity extends Activity implements LocationListener {
 		Config.collectLifecycleData();
 
 		/*
-		 * Adobe Tracking - Analytics
+		 * Adobe Tracking - MyAnalytics
 		 *
 		 * call to trackState(...) for view states report
 		 * trackState(...) increments the page view
@@ -145,7 +145,7 @@ public class MenuActivity extends Activity implements LocationListener {
 	@Override
 	public void onLocationChanged(Location location) {
 		/*
-		 * Adobe Tracking - Analytics
+		 * Adobe Tracking - MyAnalytics
 		 *
 		 * trackLocation(...) call to get the location of the current user
 		 * because the config file has points of interest in it, the SDK will automatically determine

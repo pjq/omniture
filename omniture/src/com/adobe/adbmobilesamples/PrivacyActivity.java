@@ -45,7 +45,7 @@ public class PrivacyActivity extends Activity {
 		Config.collectLifecycleData();
 
 		/*
-		 * Adobe Tracking - Analytics
+		 * Adobe Tracking - MyAnalytics
 		 *
 		 * call to trackState(...) for view states report
 		 * trackState(...) increments the page view
@@ -56,7 +56,7 @@ public class PrivacyActivity extends Activity {
 
 	public void setOptIn(View view) {
 		/*
-		 * Adobe Tracking - Analytics
+		 * Adobe Tracking - MyAnalytics
 		 *
 		 * setting privacy status to ADBMobilePrivacyStatusOptIn will send hits immediately
 		 */
@@ -66,7 +66,7 @@ public class PrivacyActivity extends Activity {
 
 	public void setOptOut(View view) {
 		/*
-		 * Adobe Tracking - Analytics
+		 * Adobe Tracking - MyAnalytics
 		 *
 		 * setting privacy status to ADBMobilePrivacyStatusOptOut will discard hits immediately
 		 */
@@ -76,7 +76,7 @@ public class PrivacyActivity extends Activity {
 
 	public void setOptUnknown(View view) {
 		/*
-		 * Adobe Tracking - Analytics
+		 * Adobe Tracking - MyAnalytics
 		 *
 		 * setting privacy status to ADBMobilePrivacyStatusOptUnknown will have different behaviors
 		 * if your app is not set to track offline, hits will be discarded immediately
@@ -90,7 +90,7 @@ public class PrivacyActivity extends Activity {
 
 	public void trackActionPrivacy(View view) {
 		/*
-		 * Adobe Tracking - Analytics
+		 * Adobe Tracking - MyAnalytics
 		 *
 		 * call to trackAction:data: for privacy status check
 		 * trackAction:data: does not increment page views

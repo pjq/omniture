@@ -68,7 +68,7 @@ public class TargetingLocationActivity extends Activity {
 		Config.collectLifecycleData();
 
 		/*
-		 * Adobe Tracking - Analytics
+		 * Adobe Tracking - MyAnalytics
 		 *
 		 * call to trackState(...) for view states report
 		 * trackState(...) increments the page view
@@ -102,7 +102,7 @@ public class TargetingLocationActivity extends Activity {
 	}
 
 	private void sendLocationTrack(Location location) {
-		/* Adobe Tracking - Analytics
+		/* Adobe Tracking - MyAnalytics
 		 *
 		 * standard tracking location call with our pre-determined CLLocation objects
 		 * once we have a location via trackLocation(...), the poi data will automatically be used

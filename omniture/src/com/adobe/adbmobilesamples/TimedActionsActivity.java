@@ -45,7 +45,7 @@ public class TimedActionsActivity extends Activity {
 		Config.collectLifecycleData();
 
 		/*
-		 * Adobe Tracking - Analytics
+		 * Adobe Tracking - MyAnalytics
 		 *
 		 * call to trackState(...) for view states report
 		 * trackState(...) increments the page view
@@ -55,7 +55,7 @@ public class TimedActionsActivity extends Activity {
 
 	public void startAction1(View view) {
 		/*
-		 * Adobe Tracking - Analytics
+		 * Adobe Tracking - MyAnalytics
 		 *
 		 * start a timed action with name "action1" and no additional context data
 		 * note: if you call trackTimedActionStart(...) for an action already running, it will overwrite the existing one
@@ -65,7 +65,7 @@ public class TimedActionsActivity extends Activity {
 
 	public void stopAction1(View view) {
 		/*
-		 * Adobe Tracking - Analytics
+		 * Adobe Tracking - MyAnalytics
 		 *
 		 * stop a timed action with name "action1"
 		 * in the logic callback, you can manipulate your context data as the Map<String, Object> data object
@@ -91,7 +91,7 @@ public class TimedActionsActivity extends Activity {
 
 	public void startAction2(View view) {
 		/*
-		 * Adobe Tracking - Analytics
+		 * Adobe Tracking - MyAnalytics
 		 *
 		 * start a timed action with name "action2" and no additional context data
 		 * note: if you call trackTimedActionStart(...) for an action already running, it will overwrite the existing one
@@ -101,7 +101,7 @@ public class TimedActionsActivity extends Activity {
 
 	public void stopAction2(View view) {
 		/*
-		 * Adobe Tracking - Analytics
+		 * Adobe Tracking - MyAnalytics
 		 *
 		 * stop a timed action with name "action2"
 		 * in the logic callback, you can manipulate your context data as the Map<String, Object> data object
