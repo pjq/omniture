@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="adobeMobileScene7">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/build/exploded-aar/HelloOmniture/omniture/unspecified/libs/adobeMobileScene7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
