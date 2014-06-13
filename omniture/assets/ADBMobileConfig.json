@@ -1,7 +1,7 @@
 {
     "version" : "1.0",
     "analytics" : {
-        "rsids": "mobile1.created.1",
+        "rsids": "HelloOmniture.rsids",
         "server": "obumobile1.d1.sc.omtrdc.net",
         "ssl": false,
         "offlineEnabled": true,
@@ -20,7 +20,7 @@
         ]
     },
 	"target" : {
-		"clientCode" : "amsdk",
+		"clientCode" : "HelloOmniture",
 		"timeout" : 5
 	},
 	"audienceManager" : {

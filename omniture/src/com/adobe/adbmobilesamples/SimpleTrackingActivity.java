@@ -54,7 +54,7 @@ public class SimpleTrackingActivity extends Activity {
 
 	public void trackState(View view) {
 		HashMap<String, Object> contextData = new HashMap<String, Object>();
-		contextData.put("page.name", "Example State");
+        contextData.put("page.name", "Englishtown");
 		EditText name = (EditText)findViewById(R.id.txtName);
 		if (name.getText().length() > 0) {
 			contextData.put("user.name", name.getText());
@@ -66,12 +66,12 @@ public class SimpleTrackingActivity extends Activity {
 		 * call to trackState:data: for view states report
 		 * trackState:data: increments the page view
 		 */
-		Analytics.trackState("Example State", contextData);
+		Analytics.trackState("ExampleTrackingState", contextData);
 	}
 
 	public void trackAction(View view) {
 		HashMap<String, Object> contextData = new HashMap<String, Object>();
-		contextData.put("page.name", "Example State");
+		contextData.put("page.name", "Englishtown");
 		EditText name = (EditText)findViewById(R.id.txtName);
 		if (name.getText().length() > 0) {
 			contextData.put("user.name", name.getText());
